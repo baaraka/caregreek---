@@ -1,0 +1,41 @@
+.home {
+  width: 100%;
+  height: 310px;
+}
+.homeImg {
+  width: 100%;
+  height: 351px;
+}
+.homeImgItem {
+  width: 100%;
+  height: 310px;
+}
+.homeTitle {
+  width: 20%;
+  bottom: 250px;
+  left: 500px;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.homeTitleItem {
+  font-size: 20px;
+  font-family: montserrat serif;
+  font-weight: 800;
+  color: white;
+}
+.homeList {
+  width: 20%;
+  bottom: 290px;
+  left: 600px;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+}
+.homeListItem {
+  font-size: 40px;
+  list-style: none;
+  line-height: 20px;
+  color: whitesmoke;
+}
