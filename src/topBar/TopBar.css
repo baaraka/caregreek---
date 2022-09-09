@@ -1,0 +1,75 @@
+.topBar {
+  top: 0;
+  width: 100%;
+  height: 70px;
+  background-color: rgb(246, 243, 240);
+}
+.homeTop {
+  width: 100%;
+  height: 70px;
+  display: flex;
+  background-color: rgb(246, 243, 240);
+  top: 0;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  z-index: 1000;
+}
+.homeTopLeft,
+.homeTopRight {
+  display: flex;
+  flex: 3;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.homeLogoImg {
+  width: 70px;
+  height: 40px;
+  border-radius: 10px;
+  object-fit: cover;
+  cursor: pointer;
+}
+.topLeftImg {
+  padding-left: 50px;
+}
+.homeTopCenter {
+  flex: 6;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+.homeNavigationBar {
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.homeTopRight {
+  padding-right: 60px;
+}
+.homeNavigationBarItem {
+  margin-left: 20px;
+  color: rgb(121, 99, 43);
+  font-size: 17px;
+  font-weight: 200;
+  cursor: pointer;
+}
+.navigationBar {
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.navigationBarItem {
+  margin-right: 30px;
+  font-size: 20px;
+  font-weight: 200;
+  cursor: pointer;
+  border: 2px solid rgb(244, 184, 73);
+  border-radius: 10px;
+  border-top-right-radius: 1px;
+  border-spacing: 5px;
+}
