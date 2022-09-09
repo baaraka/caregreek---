@@ -1,0 +1,91 @@
+.footer {
+  width: 100%;
+  height: 100%;
+  background-color: rgb(246, 243, 240);
+}
+.footerDivList {
+  height: 300px;
+  width: 100%;
+}
+.footerDivListItem {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+}
+.footerListItemLeft {
+  width: 500px;
+  height: 200px;
+  padding: 30px;
+  margin-left: 20px;
+  padding-left: 10px;
+  color: rgb(121, 99, 43);
+}
+.footerImg {
+  width: 70px;
+  height: 40px;
+  border-radius: 10px;
+  object-fit: cover;
+  cursor: pointer;
+  margin-left: 30px;
+}
+.footerSpan {
+  margin-top: 20px;
+  margin-left: 30px;
+}
+.footerBottom {
+  width: 100%;
+  height: 70px;
+  background-color: rgb(246, 243, 240);
+}
+.footerBottomItem {
+  width: 100%;
+  height: 70px;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding-left: 30px;
+}
+.footerBottomItemList {
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: rgb(121, 99, 43);
+}
+.footerTopCenter {
+  width: 200px;
+  height: 200px;
+  padding: 30px;
+  color: rgb(121, 99, 43);
+}
+.footerNavigationBar {
+  list-style: none;
+}
+.footerNavigationBarItem {
+  padding: 10px;
+  cursor: pointer;
+}
+.footerRight {
+  width: 200px;
+  height: 200px;
+  padding: 30px;
+}
+.footerSpanRight {
+  padding: 10px 10px 0px 10px;
+}
+.footerEmail {
+  color: rgb(121, 99, 43);
+}
+.footIcons {
+  padding: 10px;
+  cursor: pointer;
+  border: 1px solid;
+  border-radius: 50%;
+  color: rgb(121, 99, 43);
+}
+.footIcon {
+  padding: 10px;
+  cursor: pointer;
+  border: 1px solid;
+  border-radius: 50%;
+  color: rgb(121, 99, 43);
+}
