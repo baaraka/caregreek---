@@ -1,6 +1,6 @@
 .footer {
   width: 100%;
-  height: 100%;
+  height: 300px;
   background-color: rgb(246, 243, 240);
 }
 .footerDivList {
@@ -15,9 +15,8 @@
 .footerListItemLeft {
   width: 500px;
   height: 200px;
-  padding: 30px;
-  margin-left: 20px;
-  padding-left: 10px;
+  position: relative;
+  right: 54px;
   color: rgb(121, 99, 43);
 }
 .footerImg {
@@ -29,12 +28,14 @@
   margin-left: 30px;
 }
 .footerSpan {
+  width: 310px;
   margin-top: 20px;
   margin-left: 30px;
+  line-height: 22px;
 }
 .footerBottom {
   width: 100%;
-  height: 70px;
+  height: 50px;
   background-color: rgb(246, 243, 240);
 }
 .footerBottomItem {
@@ -54,7 +55,8 @@
 .footerTopCenter {
   width: 200px;
   height: 200px;
-  padding: 30px;
+  position: relative;
+  right: 30px;
   color: rgb(121, 99, 43);
 }
 .footerNavigationBar {
@@ -67,25 +69,35 @@
 .footerRight {
   width: 200px;
   height: 200px;
-  padding: 30px;
+  position: relative;
+  left: 70px;
 }
 .footerSpanRight {
-  padding: 10px 10px 0px 10px;
+  padding-bottom: 10px;
+  padding-left: 5px;
+  color: rgb(83, 73, 73);
 }
 .footerEmail {
   color: rgb(121, 99, 43);
+  padding-left: 8px;
+  line-height: 22px;
 }
 .footIcons {
-  padding: 10px;
+  padding: 4px;
   cursor: pointer;
-  border: 1px solid;
+  border: 1px solid rgb(193, 190, 177);
   border-radius: 50%;
   color: rgb(121, 99, 43);
 }
 .footIcon {
-  padding: 10px;
+  padding: 5px;
+  margin: 5px;
   cursor: pointer;
-  border: 1px solid;
+  border: 1px solid rgb(193, 190, 177);
   border-radius: 50%;
   color: rgb(121, 99, 43);
+}
+.footIconFooter {
+  padding-right: 10px;
+  padding-top: 10px;
 }
