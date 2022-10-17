@@ -1,18 +1,18 @@
 .home {
   width: 100%;
-  height: 310px;
+  height: 450px;
 }
 .homeImg {
   width: 100%;
-  height: 351px;
+  height: 450px;
 }
 .homeImgItem {
   width: 100%;
-  height: 310px;
+  height: 450px;
 }
 .homeTitle {
   width: 20%;
-  bottom: 250px;
+  bottom: 300px;
   left: 500px;
   position: relative;
   align-items: center;
@@ -20,22 +20,22 @@
   text-align: center;
 }
 .homeTitleItem {
-  font-size: 20px;
+  font-size: 40px;
   font-family: montserrat serif;
-  font-weight: 800;
+  font-weight: 900;
   color: white;
 }
 .homeList {
   width: 20%;
   bottom: 290px;
-  left: 600px;
+  left: 650px;
   position: relative;
   align-items: center;
   justify-content: center;
 }
 .homeListItem {
-  font-size: 40px;
+  font-size: 50px;
   list-style: none;
-  line-height: 20px;
-  color: whitesmoke;
+  line-height: 30px;
+  color: rgb(175, 171, 171);
 }
