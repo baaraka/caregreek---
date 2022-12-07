@@ -14,9 +14,9 @@ export default function Footer() {
               />{" "}
               <br />
               <p className="footerSpan">
-                I am a full-stack web developer with strong knowledge of
-                MongoDB, node.js, Javascript and front end technologies such
-                react, jquery, Ejs and counting.
+                Caregreek International Was Established in 2018 And Has Over The
+                Years Evolved To Become The Largest And Most Specialized
+                Cleaning Company In Nigeria.
               </p>
             </div>
             <div className="footerTopCenter">
@@ -32,10 +32,12 @@ export default function Footer() {
               <i className="footIcons fa-solid fa-envelope"></i>
               <span className="footerEmail">contact@9barack.com</span>
               <br />
-              <i className="footIcon fa-solid fa-square-phone"></i>
-              <i className="footIcon fa-brands fa-facebook"></i>
-              <i className="footIcon fa-brands fa-twitter"></i>
-              <i className="footIcon fa-brands fa-instagram"></i>
+              <div className="footIconFooter">
+                <i className="footIcon fa-solid fa-square-phone"></i>
+                <i className="footIcon fa-brands fa-facebook"></i>
+                <i className="footIcon fa-brands fa-twitter"></i>
+                <i className="footIcon fa-brands fa-instagram"></i>
+              </div>
             </div>
           </div>
           <div className="footerBottom">
