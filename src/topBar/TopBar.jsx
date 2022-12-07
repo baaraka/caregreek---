@@ -1,6 +1,9 @@
+import { useState } from "react";
 import "./TopBar.css";
 
 export default function TopBar() {
+  const [show, setShow] = useState(false);
+
   return (
     <div className="topBar">
       <div className="homeTop">
@@ -24,6 +27,27 @@ export default function TopBar() {
             <li className="navigationBarItem">SHEDULE SERVICE</li>
           </ul>
         </div>
+        <div className="toggleMenu">
+          <i
+            onClick={() => setShow(!show)}
+            className="showBtn fa-solid fa-bars"
+          ></i>
+        </div>
+        {show ? (
+          <div className="sideBar">
+            <div className="sideTopCenter">
+              <ul className="sideNavigationBar">
+                <li className="sideNavigationBarItem">Home</li>
+                <li className="sideNavigationBarItem">About Us</li>
+                <li className="sideNavigationBarItem">Services</li>
+                <li className="sideNavigationBarItem">Contact</li>
+                <li className="navigationBarItem sideNavigationBarItem">
+                  SHEDULE SERVICE
+                </li>
+              </ul>
+            </div>
+          </div>
+        ) : null}
       </div>
     </div>
   );
