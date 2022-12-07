@@ -31,13 +31,14 @@
   cursor: pointer;
 }
 .topLeftImg {
+  position: relative;
+  left: 110px;
   padding-left: 50px;
 }
 .homeTopCenter {
-  flex: 6;
-  text-align: center;
-  align-items: center;
-  justify-content: center;
+  width: 720px;
+  position: relative;
+  left: 350px;
 }
 .homeNavigationBar {
   display: flex;
@@ -47,7 +48,12 @@
   list-style: none;
 }
 .homeTopRight {
+  width: 600px;
+  position: relative;
+  left: 530px;
+
   padding-right: 60px;
+  height: 50px;
 }
 .homeNavigationBarItem {
   margin-left: 20px;
@@ -57,6 +63,7 @@
   cursor: pointer;
 }
 .navigationBar {
+  width: 250px;
   display: flex;
   justify-content: center;
   margin: 0;
@@ -68,9 +75,69 @@
   font-size: 20px;
   font-weight: 200;
   cursor: pointer;
-  color: rgb(58, 50, 50);
   border: 2px solid rgb(244, 184, 73);
   border-radius: 20px;
   border-top-right-radius: 1px;
   padding: 8px;
+}
+.toggleMenu {
+  display: flex;
+  justify-content: flex-end;
+  float: right;
+  width: 100%;
+  z-index: 1000;
+  padding-right: 30px;
+}
+.sideBar {
+  flex-wrap: wrap;
+  height: 400px;
+  position: fixed;
+  right: 0%;
+  align-items: center;
+  justify-content: center;
+  width: 250px;
+  top: 0%;
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(246, 243, 240);
+}
+.sideTopCenter {
+  align-items: center;
+  justify-content: center;
+}
+.sideNavigationBar {
+  display: flex;
+  flex-direction: column;
+}
+.sideNavigationBarItem {
+  color: rgb(121, 99, 43);
+  font-size: 17px;
+  font-weight: 200;
+  list-style: none;
+  padding-top: 20px;
+  cursor: pointer;
+}
+.showBtn {
+  visibility: hidden;
+}
+
+@media screen and (max-width: 1024px) {
+  .showBtn {
+    visibility: visible;
+    opacity: 1;
+    cursor: pointer;
+  }
+  .homeTop {
+    justify-content: space-between;
+  }
+  .homeTopCenter {
+    display: none;
+  }
+  .homeTopRight {
+    display: none;
+  }
+  .homeLogoImg {
+    position: relative;
+    right: 135px;
+  }
 }
